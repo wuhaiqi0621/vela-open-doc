@@ -30,7 +30,8 @@ export default defineConfig({
       {
         text: '文档',
         items: [
-          { text: '设备参数', link: '/docs/device' }
+          { text: '设备参数', link: '/docs/device' },
+          { text: '米表系统合集', link: '/docs/history' }
         ]
       },
       {
