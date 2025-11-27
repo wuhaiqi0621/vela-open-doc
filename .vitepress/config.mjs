@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { GitChangelog } from '@nolebase/vitepress-plugin-git-changelog/vite'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -72,5 +73,12 @@ export default defineConfig({
         },
       }
     }
-  }
+  },
+  vite: {
+    plugins: [
+      GitChangelog({
+        repoURL: () => 'https://github.com/zaona/vela-open-doc',
+      }),
+    ],
+  },
 })

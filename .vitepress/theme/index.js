@@ -1,17 +1,28 @@
 // https://vitepress.dev/guide/custom-theme
 import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
+import {
+  NolebaseGitChangelogPlugin,
+  NolebaseGitChangelog,
+  NolebaseGitContributors,
+} from '@nolebase/vitepress-plugin-git-changelog/client'
+
+import '@nolebase/vitepress-plugin-git-changelog/client/style.css'
 import './style.css'
 
 /** @type {import('vitepress').Theme} */
 export default {
   extends: DefaultTheme,
-  Layout: () => {
+  Layout() {
     return h(DefaultTheme.Layout, null, {
-      // https://vitepress.dev/guide/extending-default-theme#layout-slots
+      'doc-after': () =>
+        h('section', { class: 'git-changelog-section' }, [
+          h(NolebaseGitContributors),
+          h(NolebaseGitChangelog),
+        ]),
     })
   },
-  enhanceApp({ app, router, siteData }) {
-    // ...
-  }
+  enhanceApp({ app }) {
+    app.use(NolebaseGitChangelogPlugin)
+  },
 }
