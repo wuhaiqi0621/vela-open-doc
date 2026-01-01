@@ -24,6 +24,9 @@
 
 指file等存储接口实际可使用的最大空间（系统预留空间），超出此值后无法正常写入数据。
 
+https://iot.mi.com/vela/quickapp/zh/features/basic/device.html#device-gettotalstorage-object
+:::
+
 ::: info Product
 
 `device.getInfo(OBJECT)` 返回内容中的 `product` 字段的值
