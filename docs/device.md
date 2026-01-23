@@ -2,23 +2,23 @@
 
 ## Vela 设备
 
-| 设备                    | 型号       | Product                 | 分辨率   | 水平 DP 值 | DPR | 圆角 | 预留空间 |
-| ----------------------- | ---------- | ----------------------- | -------- | ---------- | --- | ---- | -------- |
-| 小米手环 8 Pro          | m67        | ?                       | 336\*480 | 168        | 2.1 | 48   |          |
-| 小米手环 9              | n66        | Xiaomi Smart Band 9 Pro | 192\*490 | 96         | 2   | 96   | 64MB     |
-| 小米手环 9 Pro          | n67        | Xiaomi Smart Band 9     | 336\*480 | 160        | 2.1 | 48   | 64MB     |
-| 小米手环 10             | o66        | Xiaomi Smart Band 10    | 212\*520 | 106        | 2   | 104  |          |
-| 小米手环 10 NFC         | o66NFC     | ?                       | 212\*520 | 106        | 2   | 104  |          |
-| Xiaomi Watch S3         | n62        | Xiaomi Watch S3         | 466\*466 | 233        | 2   | 50%  |          |
-| Xiaomi Watch S3 eSIM    | n62        | Xiaomi Watch S3 eSIM    | 466\*466 | 233        | 2   | 50%  |          |
-| Xiaomi Watch S4         | o62        | Xiaomi Watch S4         | 466\*466 | 233        | 2   | 50%  |          |
-| Xiaomi Watch S4 eSIM    | o62m       | Xiaomi Watch S4 eSIM    | 466\*466 | 233        | 2   | 50%  |          |
-| Xiaomi Watch S4 Sport   | o62        | Xiaomi Watch S4 Sport   | 466\*466 | 233        | 2   | 50%  |          |
-| Xiaomi Watch S4 15 周年 | o62m       | marconi_o62m_watch      | 466\*466 | 233        | 2   | 50%  |          |
-| Xiaomi Watch S4 41mm    | o62/o63    | Xiaomi Watch S4 41mm    | 466\*466 | 233        | 2   | 50%  |          |
-| 红米手表 5              | o65        | REDMI Watch 5           | 432\*514 | 216        | 2   | 103  |          |
-| 红米手表 5 eSIM         | o65m       | o65m                    | 432\*514 | 216        | 2   | 103  | 1024MB   |
-| 红米手表 6              | p65        | REDMI Watch 6           | 432\*514 | 216        | 2   | 108  | 120MB    |
+| 设备                | 型号    | Product                 | 分辨率   | 水平 DP | DPR | 圆角 | 预留空间 |
+| ------------------- | ------- | ----------------------- | -------- | ------- | --- | ---- | -------- |
+| 小米手环 8 Pro      | m67     | ?                       | 336\*480 | 168     | 2.1 | 48   | 45MB     |
+| 小米手环 9          | n66     | Xiaomi Smart Band 9 Pro | 192\*490 | 96      | 2   | 96   | 64MB     |
+| 小米手环 9 Pro      | n67     | Xiaomi Smart Band 9     | 336\*480 | 160     | 2.1 | 48   | 60MB     |
+| 小米手环 10         | o66     | Xiaomi Smart Band 10    | 212\*520 | 106     | 2   | 104  | 42MB     |
+| 小米手环 10 NFC     | o66NFC  | ?                       | 212\*520 | 106     | 2   | 104  | 48MB     |
+| 小米手表 S3         | n62     | Xiaomi Watch S3         | 466\*466 | 233     | 2   | 50%  |          |
+| 小米手表 S3 eSIM    | n62     | Xiaomi Watch S3 eSIM    | 466\*466 | 233     | 2   | 50%  |          |
+| 小米手表 S4         | o62     | Xiaomi Watch S4         | 466\*466 | 233     | 2   | 50%  |          |
+| 小米手表 S4 eSIM    | o62m    | Xiaomi Watch S4 eSIM    | 466\*466 | 233     | 2   | 50%  |          |
+| 小米手表 S4 Sport   | o62     | Xiaomi Watch S4 Sport   | 466\*466 | 233     | 2   | 50%  |          |
+| 小米手表 S4 15 周年 | o62m    | marconi_o62m_watch      | 466\*466 | 233     | 2   | 50%  |          |
+| 小米手表 S4 41mm    | o62/o63 | Xiaomi Watch S4 41mm    | 466\*466 | 233     | 2   | 50%  |          |
+| 红米手表 5          | o65     | REDMI Watch 5           | 432\*514 | 216     | 2   | 103  | 323MB    |
+| 红米手表 5 eSIM     | o65m    | o65m                    | 432\*514 | 216     | 2   | 103  | 1024MB   |
+| 红米手表 6          | p65     | REDMI Watch 6           | 432\*514 | 216     | 2   | 108  | 210MB    |
 
 ::: info 型号
 https://vela.zaona.top/docs/name
